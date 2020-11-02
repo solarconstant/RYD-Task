@@ -181,12 +181,6 @@ i {
   -webkit-overflow-scrolling: touch;
   font-size: medium;
 }
-.slides h4 {
-  display: block;
-}
-.slides p {
-  display: block;
-}
 
 .slides::-webkit-scrollbar {
   display: none;
@@ -223,6 +217,62 @@ i {
 .scroll-button {
   justify-content: center;
   display: flex;
+}
+
+/*------Media Queries------*/
+@media only screen and (max-width: 1080px) {
+  * {
+    text-align: center;
+  }
+
+  .slider .slides {
+    width: 90%;
+  }
+  .slider .slides #slide-1 {
+    width: 100%;
+  }
+  .slider .slides #slide-2 {
+    width: 100%;
+  }
+  .slider .slides #slide-3 {
+    width: 100%;
+  }
+  .slider .slides #slide-4 {
+    width: 100%;
+  }
+  .slider .slides #slide-5 {
+    width: 100%;
+  }
+  .slider .slides #slide-1-1 {
+    width: 100%;
+  }
+  .slider .slides #slide-1-2 {
+    width: 100%;
+  }
+  .slider .slides #slide-1-3 {
+    width: 100%;
+  }
+  .slider .slides #slide-1-4 {
+    width: 100%;
+  }
+  .slider .slides #slide-1-5 {
+    width: 100%;
+  }
+  .slider .slides #slide-2-1 {
+    width: 100%;
+  }
+  .slider .slides #slide-2-2 {
+    width: 100%;
+  }
+  .slider .slides #slide-2-3 {
+    width: 100%;
+  }
+  .slider .slides #slide-2-4 {
+    width: 100%;
+  }
+  .slider .slides #slide-2-5 {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
